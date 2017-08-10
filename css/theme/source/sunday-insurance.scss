@@ -1,0 +1,39 @@
+/**
+ * Sunday Insurance theme for reveal.js.
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #faf9f7;
+
+$mainFont: 'Lato', sans-serif;
+$mainColor: #4a4a4a;
+$secondaryColor: #696969;
+$linkColor: #11a986;
+$linkColorHover: #008b77;
+$headingFont: 'Montserrat', Impact, sans-serif;
+$headingColor: #fb5f35;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #11a986;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.text-secondary {
+  color: $secondaryColor;
+}
