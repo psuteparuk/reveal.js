@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Writing Clean Code</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/sunday-insurance.css">
@@ -24,8 +24,67 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="content/01-cover.md"></section>
-				<section>Slide 2</section>
+				<section id="content-conver" data-markdown="content/cover.md"></section>
+				<section id="content-topics" data-markdown="content/topics.md"></section>
+				<section id="content-resources" data-markdown="content/resources.md"></section>
+				<!-- <section id="content-topics-why-clean-code" data-markdown="content/topics-why-clean-code.md"></section> -->
+				<section id="content-why-clean-code" data-transition="slide-in none-out" data-markdown="content/why-clean-code.md"></section>
+				<section data-transition="none-in convex-out">
+					<section id="content-why-bad-code" data-markdown="content/why-bad-code.md"></section>
+					<section id="content-bad-code-list" data-markdown="content/bad-code-list.md"></section>
+				</section>
+				<section id="content-why-bad-code-list" data-markdown="content/why-bad-code-list.md"></section>
+				<section id="content-later-equals-never" data-markdown="content/later-equals-never.md"></section>
+				<section id="content-cost-of-bad-code-1" data-markdown="content/cost-of-bad-code-1.md"></section>
+				<section id="content-cost-of-bad-code-2" data-markdown="content/cost-of-bad-code-2.md"></section>
+				<section id="content-blame-them" data-markdown="content/blame-them.md"></section>
+				<section id="content-start-with-yourself" data-markdown="content/start-with-yourself.md"></section>
+				<section id="content-why-bad-code-list-with-reasons" data-markdown="content/why-bad-code-list-with-reasons.md"></section>
+				<section id="content-mess-and-deadline" data-markdown="content/mess-and-deadline.md"></section>
+				<section id="content-care-for-your-code" data-markdown="content/care-for-your-code.md"></section>
+				<section id="content-topics-characteristics-of-clean-code" data-markdown="content/topics-characteristics-of-clean-code.md"></section>
+				<section id="content-wtf-per-minute" data-markdown="content/wtf-per-minute.md"></section>
+				<section id="content-clean-code-analogy-1" data-markdown="content/clean-code-analogy-1.md"></section>
+				<section id="content-clean-code-analogy-2" data-markdown="content/clean-code-analogy-2.md"></section>
+				<section id="content-analogy-conclusion" data-markdown="content/analogy-conclusion.md"></section>
+				<section id="content-characteristics-list" data-markdown="content/characteristics-list.md"></section>
+				<section id="content-goals-of-clean-code" data-markdown="content/goals-of-clean-code.md"></section>
+				<section id="content-topics-common-strategies" data-markdown="content/topics-common-strategies.md"></section>
+				<section id="content-common-strategies" data-markdown="content/common-strategies.md"></section>
+				<section>
+					<section id="content-code-formatting-1" data-markdown="content/code-formatting-1.md"></section>
+				</section>
+				<section>
+					<section id="content-naming-1" data-markdown="content/naming-1.md"></section>
+					<section id="content-naming-2" data-markdown="content/naming-2.md"></section>
+					<section id="content-naming-3" data-markdown="content/naming-3.md"></section>
+				</section>
+				<section>
+					<section id="content-functions-1" data-markdown="content/functions-1.md"></section>
+					<section id="content-functions-2" data-markdown="content/functions-2.md"></section>
+					<section id="content-functions-3" data-markdown="content/functions-3.md"></section>
+					<section id="content-functions-4" data-markdown="content/functions-4.md"></section>
+				</section>
+				<section>
+					<section id="content-comments-1" data-markdown="content/comments-1.md"></section>
+					<section id="content-comments-2" data-markdown="content/comments-2.md"></section>
+					<section id="content-comments-3" data-markdown="content/comments-3.md"></section>
+					<section id="content-comments-4" data-markdown="content/comments-4.md"></section>
+					<section id="content-comments-5" data-markdown="content/comments-5.md"></section>
+				</section>
+				<section>
+					<section id="content-error-handling-1" data-markdown="content/error-handling-1.md"></section>
+					<section id="content-error-handling-2" data-markdown="content/error-handling-2.md"></section>
+					<section id="content-error-handling-3" data-markdown="content/error-handling-3.md"></section>
+				</section>
+				<section>
+					<section id="content-tests-1" data-markdown="content/tests-1.md"></section>
+					<section id="content-tests-2" data-markdown="content/tests-2.md"></section>
+				</section>
+				<section>
+					<section id="content-code-smells-1" data-markdown="content/code-smells-1.md"></section>
+				</section>
+				<section id="content-references" data-markdown="content/references.md"></section>
 			</div>
 		</div>
 
@@ -42,7 +101,9 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				history: true,
+				transition: 'convex'
 			});
 		</script>
 	</body>

@@ -34,6 +34,40 @@ $selectionBackgroundColor: #11a986;
 @import "../template/theme";
 // ---------------------------------------------
 
-.text-secondary {
-  color: $secondaryColor;
+.reveal {
+  .text-main {
+    color: $mainColor;
+  }
+
+  .text-secondary {
+    color: $secondaryColor;
+  }
+
+  .text-primary {
+    color: $headingColor;
+  }
+
+  .text-accent {
+    color: $linkColor;
+  }
+
+  .collapse-table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .collapse-table * {
+    border: none;
+  }
+
+  .full-img {
+    height: 35rem;
+  }
+
+  .resource-img {
+    display: block;
+    width: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
