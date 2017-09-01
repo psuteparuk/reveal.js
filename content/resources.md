@@ -3,10 +3,10 @@
 <table class="collapse-table">
     <tr>
         <td>
-            <img class="resource-img" data-src="../images/clean-code.jpg" alt="Clean Code" />
+            <img class="resource-img" data-src="images/clean-code.jpg" alt="Clean Code" />
         </td>
         <td>
-            <img class="resource-img" data-src="../images/code-complete.jpg" alt="Clean Code" />
+            <img class="resource-img" data-src="images/code-complete.jpg" alt="Clean Code" />
         </td>
     </tr>
     <tr>

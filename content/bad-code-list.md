@@ -5,4 +5,4 @@
 - Release cycle takes longer <!-- .element: class="fragment" -->
 - Potentially kill an app <!-- .element: class="fragment" -->
 
-<img data-src="../images/productivity.svg" class="fragment" />
+<img data-src="images/productivity.svg" class="fragment" />
